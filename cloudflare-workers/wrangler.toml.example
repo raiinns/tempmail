@@ -1,0 +1,7 @@
+name = "your_worker_name"
+main = "src/index.js" # Arahkan ke file utama kamu
+compatibility_date = "2024-05-01"
+
+[vars]
+# Masukkan URL API VPS kamu di sini
+VPS_URL = "your_vps_url"
