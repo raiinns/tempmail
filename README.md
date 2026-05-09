@@ -475,22 +475,6 @@ Deletes emails older than 24 hours. Returns `{ "deleted": <count> }`.
 
 ---
 
-## Security
-
-- **Never commit `.env` files.** All repositories include `.env.example` for reference.
-- **Store `rawKey` safely.** The backend only stores SHA-256 hashes; raw keys are returned once during creation.
-- **Rotate keys regularly.** Use the admin API or Telegram bot to revoke and recreate keys.
-- **Use HTTPS everywhere.** Especially for the backend and Cloudflare Worker `VPS_URL`.
-- **Restrict Telegram Bot access.** The bot only responds to the configured `OWNER_USER_ID`.
-
----
-
-## License
-
-This project is open-sourced for educational and personal use. Feel free to fork and adapt to your needs.
-
----
-
 <p align="center">
-  Made with ❤️ by <b>Rains</b>
+  This project is for learning purpose and personal use only.</b>
 </p>
